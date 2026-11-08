@@ -1,4 +1,7 @@
 {
+  "ai": {
+    "reviewUrl": "https://lingua-tutor-f7b41b.netlify.app/api/tutor-ai/review"
+  },
   "languages": {
     "german": {
       "A1": "https://drive.google.com/file/d/18eSnTmIcBDsLnAn1KMtw4qya8N0eTelv/view?usp=sharing",
