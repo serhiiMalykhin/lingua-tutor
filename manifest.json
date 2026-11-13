@@ -19,7 +19,7 @@
             "title": "Speakout Elementary · A1",
             "language": "en",
             "level": "A1",
-            "released": false,
+            "released": true,
             "engineVersion": 1,
             "resources": {
                 "assets": {
