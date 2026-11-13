@@ -1,289 +1,371 @@
 {
-  "ai": {
-    "reviewUrl": "https://lingua-tutor-f7b41b.netlify.app/api/tutor-ai/review"
-  },
-  "languages": {
-    "german": {
-      "A1": "https://drive.google.com/file/d/18eSnTmIcBDsLnAn1KMtw4qya8N0eTelv/view?usp=sharing",
-      "A2": "https://drive.google.com/file/d/19o3GCpRltet8kk9wHRKuT1Iyrtos0ju1/view?usp=sharing",
-      "B1": "https://drive.google.com/file/d/1JEwWSh77OJYcQNAteBBkYWBw0c-R4RoH/view?usp=sharing",
-      "B2": "https://drive.google.com/file/d/1f1Xnq-DN84QymZ0qDoB93UDUbVAyqzTe/view?usp=sharing"
-    }
-  },
-  "schemaVersion": 2,
-  "courses": [
-    {
-      "id": "de-a1-spektrum",
-      "title": "Spektrum Deutsch · A1",
-      "language": "de",
-      "level": "A1",
-      "released": true,
-      "engineVersion": 1,
-      "source": "tutor/languages/german/A1/spektrum a1",
-      "research": "spektrum-a1",
-      "files": {
-        "kb": "Spektrum Deutsch A1 Kurs- und Arbeitsbuch.pdf",
-        "kb-key": "Spektrum Deutsch A1 Loesungsheft.pdf",
-        "online": "SA1-Onlineaufgaben.pdf"
-      },
-      "hashes": {
-        "Spektrum Deutsch A1 Kurs- und Arbeitsbuch.pdf": "cf4c56be9790b2a6c7532ed7c7951ce9d22dff93376c14448241495d89780c6b",
-        "Spektrum Deutsch A1 Loesungsheft.pdf": "9fb0af158d177c364886f4ff0e932ae1af449798b342bf3c1a9a576cc63c8fd8",
-        "SA1-Onlineaufgaben.pdf": "6fdf1c94e8ad924118662baddaa4400294d5b0b211ef6a95de6dfda29f41402a"
-      },
-      "maxPdfBytes": 134217728,
-      "maxAudioBytes": 8388608,
-      "manifestSha256": "b21182b76a4fd9b282813eec4931316c93609a2ff3a926a010d8e03481db0f61",
-      "archive": {
-        "url": "https://drive.google.com/file/d/18eSnTmIcBDsLnAn1KMtw4qya8N0eTelv/view?usp=sharing",
-        "sha256": "71a74b77a80834c4aeda256d2c61e5afb7364ed2bc982f82e2022fbbae99bfdc",
-        "root": "A1"
-      },
-      "runtime": {
-        "pages": 276,
-        "sourcePages": {
-          "kb": 276,
-          "kb-key": 28,
-          "online": 61
-        },
-        "lessons": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12"
-        ],
-        "modules": [
-          "3",
-          "6",
-          "9",
-          "12"
-        ],
-        "printedOffset": 2,
-        "printedPages": 276,
-        "taskPrefix": "spektrum-book-",
-        "taskFirstPage": 11,
-        "taskLastPage": 264,
-        "keyFirstPage": 2,
-        "keyLastPage": 27,
-        "audioTracks": [
-          70,
-          60
-        ],
-        "audioFirst": [
-          1,
-          1
-        ],
-        "audioCount": 130,
-        "mode": "teaching"
-      },
-      "legacyStorageKey": "A1"
+    "ai": {
+        "reviewUrl": "https://lingua-tutor-f7b41b.netlify.app/api/tutor-ai/review"
     },
-    {
-      "id": "de-a2-spektrum",
-      "title": "Spektrum Deutsch · A2",
-      "language": "de",
-      "level": "A2",
-      "released": true,
-      "engineVersion": 1,
-      "source": "tutor/languages/german/A2/spektrum a2",
-      "research": "spektrum-a2",
-      "files": {
-        "kb": "Spektrum Deutsch A2plus KB und AB.pdf",
-        "kb-key": "Spektrum Deutsch A2plus Loesungsheft.pdf"
-      },
-      "hashes": {
-        "Spektrum Deutsch A2plus KB und AB.pdf": "55f202f290a9345652b9afb378ba07c07c065b8aea98c57e3d4fa894fbee22d1",
-        "Spektrum Deutsch A2plus Loesungsheft.pdf": "46ab822b336199f53c2d74b89457e4acebad55ca8b75f3230e9f432dd62140d0"
-      },
-      "maxPdfBytes": 134217728,
-      "maxAudioBytes": 8388608,
-      "manifestSha256": "941248e13159c0b22259966a4a2c02265a0376ba8b0312e9de568f57b4bcea49",
-      "archive": {
-        "url": "https://drive.google.com/file/d/19o3GCpRltet8kk9wHRKuT1Iyrtos0ju1/view?usp=sharing",
-        "sha256": "9101fb205e1d8b2181c22da6dc0f83f67d63728ef33f2997b34529c77a3c49e5",
-        "root": "A2"
-      },
-      "runtime": {
-        "pages": 292,
-        "sourcePages": {
-          "kb": 292,
-          "kb-key": 32
+    "languages": {
+        "german": {
+            "A1": "https://drive.google.com/file/d/18eSnTmIcBDsLnAn1KMtw4qya8N0eTelv/view?usp=sharing",
+            "A2": "https://drive.google.com/file/d/19o3GCpRltet8kk9wHRKuT1Iyrtos0ju1/view?usp=sharing",
+            "B1": "https://drive.google.com/file/d/1JEwWSh77OJYcQNAteBBkYWBw0c-R4RoH/view?usp=sharing",
+            "B2": "https://drive.google.com/file/d/1f1Xnq-DN84QymZ0qDoB93UDUbVAyqzTe/view?usp=sharing"
         },
-        "lessons": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12"
-        ],
-        "modules": [
-          "3",
-          "6",
-          "9",
-          "12"
-        ],
-        "printedOffset": 2,
-        "printedPages": 292,
-        "taskPrefix": "spektrum-a2-book-",
-        "taskFirstPage": 11,
-        "taskLastPage": 276,
-        "keyFirstPage": 2,
-        "keyLastPage": 31,
-        "audioTracks": [
-          48,
-          48
-        ],
-        "audioFirst": [
-          1,
-          1
-        ],
-        "audioCount": 96
-      },
-      "legacyStorageKey": "A2"
+        "english": {
+            "A1": "https://drive.google.com/file/d/1S1AFGDPW_RzGNlwTZM1XLXS0_kviexzG/view?usp=sharing"
+        }
     },
-    {
-      "id": "de-b1-spektrum",
-      "title": "Spektrum Deutsch · B1",
-      "language": "de",
-      "level": "B1",
-      "released": true,
-      "engineVersion": 1,
-      "source": "tutor/languages/german/B1/Spektrum B1",
-      "research": "spektrum-b1",
-      "files": {
-        "kb": "Spektrum B1.pdf",
-        "kb-key": "Spektrum B1 Lösungsheft.pdf"
-      },
-      "hashes": {
-        "Spektrum B1.pdf": "a6334eff2887d93a0255b6a4b9816b4dd77e9c571e661cee693001a8f87451f2",
-        "Spektrum B1 Lösungsheft.pdf": "9f021b7e2f4aab0a615b3f78146a53d88ee7315e0219b157c414839febbde809"
-      },
-      "maxPdfBytes": 134217728,
-      "maxAudioBytes": 8388608,
-      "manifestSha256": "3038370b808033f9a404b5f8f165cbbf464f4aef3d8e7f95b2e71522d32f7f00",
-      "archive": {
-        "url": "https://drive.google.com/file/d/1JEwWSh77OJYcQNAteBBkYWBw0c-R4RoH/view?usp=sharing",
-        "sha256": "ab7c66cd88e0052fdb4bc8919065daacbdc2d1627f6678e5068ed7f56231f28c",
-        "root": "B1"
-      },
-      "runtime": {
-        "pages": 288,
-        "sourcePages": {
-          "kb": 288,
-          "kb-key": 32
-        },
-        "lessons": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12"
-        ],
-        "modules": [],
-        "printedOffset": 0,
-        "printedPages": 288,
-        "taskPrefix": "spektrum-b1-book-",
-        "taskFirstPage": 9,
-        "taskLastPage": 274,
-        "keyFirstPage": 2,
-        "keyLastPage": 31,
-        "audioTracks": [
-          28,
-          28
-        ],
-        "audioFirst": [
-          1,
-          1
-        ],
-        "audioCount": 56
-      },
-      "legacyStorageKey": "B1"
-    },
-    {
-      "id": "de-b2-spektrum",
-      "title": "Spektrum Deutsch · B2",
-      "language": "de",
-      "level": "B2",
-      "released": true,
-      "engineVersion": 1,
-      "source": "tutor/languages/german/B2",
-      "research": "spektrum-b2",
-      "files": {
-        "kb": "Spektrum Deutsch B2 - 2021.pdf",
-        "kb-key": "Spektrum Deutsch B2 - 2021.pdf"
-      },
-      "hashes": {
-        "Spektrum Deutsch B2 - 2021.pdf": "3b34f21b049adbbafab76382abbc7f841601b43fee8593991a58a19df8a84703"
-      },
-      "maxPdfBytes": 402653184,
-      "maxAudioBytes": 16777216,
-      "manifestSha256": "5c211604494693b57cf6eb931ee35db2a8a4605f577239bdf20a2dbdc4140af2",
-      "archive": {
-        "url": "https://drive.google.com/file/d/1f1Xnq-DN84QymZ0qDoB93UDUbVAyqzTe/view?usp=sharing",
-        "sha256": "1eb5e9b906c4c447f6fd89438f919860c39962e91f6a1e27b4c69d51794885f3",
-        "root": "B2"
-      },
-      "runtime": {
-        "pages": 321,
-        "sourcePages": {
-          "kb": 321,
-          "kb-key": 321
-        },
-        "lessons": [
-          "1",
-          "2",
-          "3",
-          "4",
-          "5",
-          "6",
-          "7",
-          "8",
-          "9",
-          "10",
-          "11",
-          "12"
-        ],
-        "modules": [],
-        "printedOffset": 0,
-        "printedPages": 321,
-        "taskPrefix": "spektrum-b2-book-",
-        "taskFirstPage": 9,
-        "taskLastPage": 280,
-        "keyFirstPage": 294,
-        "keyLastPage": 321,
-        "audioTracks": [
-          49,
-          0
-        ],
-        "audioFirst": [
-          2,
-          1
-        ],
-        "audioCount": 48
-      },
-      "legacyStorageKey": "B2"
-    }
-  ]
+    "schemaVersion": 2,
+    "courses": [{
+            "id": "en-a1-speakout",
+            "title": "Speakout Elementary · A1",
+            "language": "en",
+            "level": "A1",
+            "released": false,
+            "engineVersion": 1,
+            "resources": {
+                "assets": {
+                    "path": "data/research/english-elementary/assets.json",
+                    "sha256": "63d1c538525e03f68a167c313181dd5737569d3027b543634f7f6d74ba17234a"
+                },
+                "taskAudio": {
+                    "path": "data/research/english-elementary/taskAudio.json",
+                    "sha256": "2d316c0804c3d718cfd21017da9556ddd292588197257efaf4858781e450ec72"
+                },
+                "wordAudio": {
+                    "path": "data/research/english-elementary/wordAudio.json",
+                    "sha256": "08e7999c632c8432c8f9a7a7aa82a7a2d92acccebde7d8bc4e46385e4fac784a"
+                }
+            },
+            "source": "tutor/languages/english",
+            "research": "english-elementary",
+            "files": {
+                "kb": "Speak Out Student's book.pdf",
+                "ab": "Workbook.pdf",
+                "kb-key": "Teacher's Resource Book.pdf",
+                "ab-key": "Workbook.pdf"
+            },
+            "hashes": {
+                "Speak Out Student's book.pdf": "80af97be1ca0cb87c5ce6aef99de8669ab7fd0f9143271aa162bbcf7cd079913",
+                "Workbook.pdf": "00ee5ab7dac6f600bc20dd398076b99dff6a9a44e42523758df194180f519f03",
+                "Teacher's Resource Book.pdf": "96d4b09b130c5a8824c3c64cb6bae41d596dc5f31be005fcc09737310ae2709e"
+            },
+            "maxPdfBytes": 134217728,
+            "maxAudioBytes": 33554432,
+            "manifestSha256": "ff11bb417729d57c79bd04d8e3dc4c4e5941a8dfbd000b588410f112b43e3300",
+            "archive": {
+                "url": "https://drive.google.com/file/d/1S1AFGDPW_RzGNlwTZM1XLXS0_kviexzG/view?usp=sharing",
+                "sha256": "6399197db7b48dd7c221d0b7827bac0cd43e70b42133fe8d3a37f1a66608a24a",
+                "root": "en-a1-speakout"
+            },
+            "runtime": {
+                "pages": 100,
+                "sourcePages": {
+                    "kb": 100,
+                    "ab": 97,
+                    "kb-key": 144,
+                    "ab-key": 97
+                },
+                "lessons": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "modules": [],
+                "printedOffset": 0,
+                "printedPages": 144,
+                "taskPrefix": "speakout-book-",
+                "taskFirstPage": 1,
+                "taskLastPage": 100,
+                "keyFirstPage": 1,
+                "keyLastPage": 144,
+                "audioTracks": [
+                    0,
+                    0
+                ],
+                "audioFirst": [
+                    1,
+                    1
+                ],
+                "audioCount": 0,
+                "sourceImageRefs": true
+            }
+        }, {
+            "id": "de-a1-spektrum",
+            "title": "Spektrum Deutsch · A1",
+            "language": "de",
+            "level": "A1",
+            "released": true,
+            "engineVersion": 1,
+            "source": "tutor/languages/german/A1/spektrum a1",
+            "research": "spektrum-a1",
+            "files": {
+                "kb": "Spektrum Deutsch A1 Kurs- und Arbeitsbuch.pdf",
+                "kb-key": "Spektrum Deutsch A1 Loesungsheft.pdf",
+                "online": "SA1-Onlineaufgaben.pdf"
+            },
+            "hashes": {
+                "Spektrum Deutsch A1 Kurs- und Arbeitsbuch.pdf": "cf4c56be9790b2a6c7532ed7c7951ce9d22dff93376c14448241495d89780c6b",
+                "Spektrum Deutsch A1 Loesungsheft.pdf": "9fb0af158d177c364886f4ff0e932ae1af449798b342bf3c1a9a576cc63c8fd8",
+                "SA1-Onlineaufgaben.pdf": "6fdf1c94e8ad924118662baddaa4400294d5b0b211ef6a95de6dfda29f41402a"
+            },
+            "maxPdfBytes": 134217728,
+            "maxAudioBytes": 8388608,
+            "manifestSha256": "b21182b76a4fd9b282813eec4931316c93609a2ff3a926a010d8e03481db0f61",
+            "archive": {
+                "url": "https://drive.google.com/file/d/18eSnTmIcBDsLnAn1KMtw4qya8N0eTelv/view?usp=sharing",
+                "sha256": "71a74b77a80834c4aeda256d2c61e5afb7364ed2bc982f82e2022fbbae99bfdc",
+                "root": "A1"
+            },
+            "runtime": {
+                "pages": 276,
+                "sourcePages": {
+                    "kb": 276,
+                    "kb-key": 28,
+                    "online": 61
+                },
+                "lessons": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "modules": [
+                    "3",
+                    "6",
+                    "9",
+                    "12"
+                ],
+                "printedOffset": 2,
+                "printedPages": 276,
+                "taskPrefix": "spektrum-book-",
+                "taskFirstPage": 11,
+                "taskLastPage": 264,
+                "keyFirstPage": 2,
+                "keyLastPage": 27,
+                "audioTracks": [
+                    70,
+                    60
+                ],
+                "audioFirst": [
+                    1,
+                    1
+                ],
+                "audioCount": 130,
+                "mode": "teaching"
+            },
+            "legacyStorageKey": "A1"
+        }, {
+            "id": "de-a2-spektrum",
+            "title": "Spektrum Deutsch · A2",
+            "language": "de",
+            "level": "A2",
+            "released": true,
+            "engineVersion": 1,
+            "source": "tutor/languages/german/A2/spektrum a2",
+            "research": "spektrum-a2",
+            "files": {
+                "kb": "Spektrum Deutsch A2plus KB und AB.pdf",
+                "kb-key": "Spektrum Deutsch A2plus Loesungsheft.pdf"
+            },
+            "hashes": {
+                "Spektrum Deutsch A2plus KB und AB.pdf": "55f202f290a9345652b9afb378ba07c07c065b8aea98c57e3d4fa894fbee22d1",
+                "Spektrum Deutsch A2plus Loesungsheft.pdf": "46ab822b336199f53c2d74b89457e4acebad55ca8b75f3230e9f432dd62140d0"
+            },
+            "maxPdfBytes": 134217728,
+            "maxAudioBytes": 8388608,
+            "manifestSha256": "941248e13159c0b22259966a4a2c02265a0376ba8b0312e9de568f57b4bcea49",
+            "archive": {
+                "url": "https://drive.google.com/file/d/19o3GCpRltet8kk9wHRKuT1Iyrtos0ju1/view?usp=sharing",
+                "sha256": "9101fb205e1d8b2181c22da6dc0f83f67d63728ef33f2997b34529c77a3c49e5",
+                "root": "A2"
+            },
+            "runtime": {
+                "pages": 292,
+                "sourcePages": {
+                    "kb": 292,
+                    "kb-key": 32
+                },
+                "lessons": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "modules": [
+                    "3",
+                    "6",
+                    "9",
+                    "12"
+                ],
+                "printedOffset": 2,
+                "printedPages": 292,
+                "taskPrefix": "spektrum-a2-book-",
+                "taskFirstPage": 11,
+                "taskLastPage": 276,
+                "keyFirstPage": 2,
+                "keyLastPage": 31,
+                "audioTracks": [
+                    48,
+                    48
+                ],
+                "audioFirst": [
+                    1,
+                    1
+                ],
+                "audioCount": 96
+            },
+            "legacyStorageKey": "A2"
+        }, {
+            "id": "de-b1-spektrum",
+            "title": "Spektrum Deutsch · B1",
+            "language": "de",
+            "level": "B1",
+            "released": true,
+            "engineVersion": 1,
+            "source": "tutor/languages/german/B1/Spektrum B1",
+            "research": "spektrum-b1",
+            "files": {
+                "kb": "Spektrum B1.pdf",
+                "kb-key": "Spektrum B1 Lösungsheft.pdf"
+            },
+            "hashes": {
+                "Spektrum B1.pdf": "a6334eff2887d93a0255b6a4b9816b4dd77e9c571e661cee693001a8f87451f2",
+                "Spektrum B1 Lösungsheft.pdf": "9f021b7e2f4aab0a615b3f78146a53d88ee7315e0219b157c414839febbde809"
+            },
+            "maxPdfBytes": 134217728,
+            "maxAudioBytes": 8388608,
+            "manifestSha256": "3038370b808033f9a404b5f8f165cbbf464f4aef3d8e7f95b2e71522d32f7f00",
+            "archive": {
+                "url": "https://drive.google.com/file/d/1JEwWSh77OJYcQNAteBBkYWBw0c-R4RoH/view?usp=sharing",
+                "sha256": "ab7c66cd88e0052fdb4bc8919065daacbdc2d1627f6678e5068ed7f56231f28c",
+                "root": "B1"
+            },
+            "runtime": {
+                "pages": 288,
+                "sourcePages": {
+                    "kb": 288,
+                    "kb-key": 32
+                },
+                "lessons": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "modules": [],
+                "printedOffset": 0,
+                "printedPages": 288,
+                "taskPrefix": "spektrum-b1-book-",
+                "taskFirstPage": 9,
+                "taskLastPage": 274,
+                "keyFirstPage": 2,
+                "keyLastPage": 31,
+                "audioTracks": [
+                    28,
+                    28
+                ],
+                "audioFirst": [
+                    1,
+                    1
+                ],
+                "audioCount": 56
+            },
+            "legacyStorageKey": "B1"
+        }, {
+            "id": "de-b2-spektrum",
+            "title": "Spektrum Deutsch · B2",
+            "language": "de",
+            "level": "B2",
+            "released": true,
+            "engineVersion": 1,
+            "source": "tutor/languages/german/B2",
+            "research": "spektrum-b2",
+            "files": {
+                "kb": "Spektrum Deutsch B2 - 2021.pdf",
+                "kb-key": "Spektrum Deutsch B2 - 2021.pdf"
+            },
+            "hashes": {
+                "Spektrum Deutsch B2 - 2021.pdf": "3b34f21b049adbbafab76382abbc7f841601b43fee8593991a58a19df8a84703"
+            },
+            "maxPdfBytes": 402653184,
+            "maxAudioBytes": 16777216,
+            "manifestSha256": "5c211604494693b57cf6eb931ee35db2a8a4605f577239bdf20a2dbdc4140af2",
+            "archive": {
+                "url": "https://drive.google.com/file/d/1f1Xnq-DN84QymZ0qDoB93UDUbVAyqzTe/view?usp=sharing",
+                "sha256": "1eb5e9b906c4c447f6fd89438f919860c39962e91f6a1e27b4c69d51794885f3",
+                "root": "B2"
+            },
+            "runtime": {
+                "pages": 321,
+                "sourcePages": {
+                    "kb": 321,
+                    "kb-key": 321
+                },
+                "lessons": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11",
+                    "12"
+                ],
+                "modules": [],
+                "printedOffset": 0,
+                "printedPages": 321,
+                "taskPrefix": "spektrum-b2-book-",
+                "taskFirstPage": 9,
+                "taskLastPage": 280,
+                "keyFirstPage": 294,
+                "keyLastPage": 321,
+                "audioTracks": [
+                    49,
+                    0
+                ],
+                "audioFirst": [
+                    2,
+                    1
+                ],
+                "audioCount": 48
+            },
+            "legacyStorageKey": "B2"
+        }
+    ]
 }
