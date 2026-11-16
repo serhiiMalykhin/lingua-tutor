@@ -11,7 +11,7 @@
         },
         "english": {
             "A1": "https://drive.google.com/file/d/1S1AFGDPW_RzGNlwTZM1XLXS0_kviexzG/view?usp=sharing",
-            "A2": "https://drive.google.com/file/d/1XrRdDYgB1kT6HsPbwbfMirAXTu6cM36Z/view?usp=sharing"
+            "A2": "https://drive.google.com/file/d/1xeeXcT8-mQpzt7FI5r1I7gJG4wVZTQyY/view?usp=sharing"
         }
     },
     "schemaVersion": 2,
@@ -103,7 +103,7 @@
   "title": "Speakout A2",
   "language": "en",
   "level": "A2",
-  "released": false,
+  "released": true,
   "engineVersion": 7,
   "resources": {
     "assets": {
@@ -135,8 +135,8 @@
   "maxAudioBytes": 33554432,
   "manifestSha256": "f0220de1eab9db534058698e37c0a971e2d5df90b0e69542aa664c01a0c1e295",
   "archive": {
-    "url": "https://drive.google.com/file/d/1XrRdDYgB1kT6HsPbwbfMirAXTu6cM36Z/view?usp=sharing",
-    "sha256": "fa580d208bcfaf5322be166dd2e0b475f4469d0fdebbdb2e431451f6e25ff206",
+    "url": "https://drive.google.com/file/d/1xeeXcT8-mQpzt7FI5r1I7gJG4wVZTQyY/view?usp=sharing",
+    "sha256": "08b49a92bc83a6449424d1a02509a670e86f2056e99f80d0f77dfce91486f480",
     "root": "user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf"
   },
   "runtime": {
