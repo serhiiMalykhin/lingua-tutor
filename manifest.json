@@ -103,7 +103,7 @@
   "title": "Speakout A2",
   "language": "en",
   "level": "A2",
-  "released": false,
+  "released": true,
   "engineVersion": 7,
   "resources": {
     "assets": {
