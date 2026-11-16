@@ -10,7 +10,8 @@
             "B2": "https://drive.google.com/file/d/1f1Xnq-DN84QymZ0qDoB93UDUbVAyqzTe/view?usp=sharing"
         },
         "english": {
-            "A1": "https://drive.google.com/file/d/1S1AFGDPW_RzGNlwTZM1XLXS0_kviexzG/view?usp=sharing"
+            "A1": "https://drive.google.com/file/d/1S1AFGDPW_RzGNlwTZM1XLXS0_kviexzG/view?usp=sharing",
+            "A2": "https://drive.google.com/file/d/1XrRdDYgB1kT6HsPbwbfMirAXTu6cM36Z/view?usp=sharing",
         }
     },
     "schemaVersion": 2,
@@ -97,7 +98,87 @@
                 "audioCount": 0,
                 "sourceImageRefs": true
             }
-        }, {
+        },{
+  "id": "user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf",
+  "title": "Speakout A2",
+  "language": "en",
+  "level": "A2",
+  "released": false,
+  "engineVersion": 7,
+  "resources": {
+    "assets": {
+      "path": "data/research/user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf/assets.json",
+      "sha256": "ca4d6c840d8c10a16809d56248e1b53ab77e0b82e23518b6136ec287a53a63a1"
+    },
+    "taskAudio": {
+      "path": "data/research/user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf/taskAudio.json",
+      "sha256": "8331f56873c8397e58a5eaf56a05440c6e9b2a6dd764142da1dbf2389e77a44f"
+    },
+    "wordAudio": {
+      "path": "data/research/user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf/wordAudio.json",
+      "sha256": "f671d1f4c03ca47197e148a135c95860255837db8549d26cbbb99820bacab41a"
+    }
+  },
+  "source": "tutor/languages/en/user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf",
+  "research": "user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf",
+  "files": {
+    "kb": "student.pdf",
+    "kb-key": "key.pdf",
+    "ab": "workbook.pdf"
+  },
+  "hashes": {
+    "student.pdf": "f9ea8e3d7b18c982dee39fecef804c52ce5f9cf42602bf6723292c9faf53d115",
+    "key.pdf": "737912d3814ce64ad629ad89e540686aecaa46d7e1182c343e650373a31ac61b",
+    "workbook.pdf": "25e688c125198ef8ebc1172fe47da9381ea6b9d57245445f771673818074a2f7"
+  },
+  "maxPdfBytes": 402653184,
+  "maxAudioBytes": 33554432,
+  "manifestSha256": "f0220de1eab9db534058698e37c0a971e2d5df90b0e69542aa664c01a0c1e295",
+  "archive": {
+    "url": "https://drive.google.com/file/d/1XrRdDYgB1kT6HsPbwbfMirAXTu6cM36Z/view?usp=sharing",
+    "sha256": "fa580d208bcfaf5322be166dd2e0b475f4469d0fdebbdb2e431451f6e25ff206",
+    "root": "user-a30fdf71-8e9e-4c3c-89e2-237017fe54cf"
+  },
+  "runtime": {
+    "pages": 180,
+    "sourcePages": {
+      "kb": 180,
+      "kb-key": 43,
+      "ab": 98
+    },
+    "lessons": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "modules": [],
+    "printedOffset": 0,
+    "printedPages": 180,
+    "taskPrefix": "author-book-",
+    "taskFirstPage": 1,
+    "taskLastPage": 180,
+    "keyFirstPage": 1,
+    "keyLastPage": 43,
+    "audioTracks": [
+      0,
+      0
+    ],
+    "audioFirst": [
+      1,
+      1
+    ],
+    "audioCount": 0,
+    "mode": "book"
+  }
+}
+, {
             "id": "de-a1-spektrum",
             "title": "Spektrum Deutsch · A1",
             "language": "de",
